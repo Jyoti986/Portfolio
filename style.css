@@ -42,44 +42,70 @@ li a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 110px 0;
+    margin: 80px 0;
 }
 
 .leftSec{
     font-size: 2.5rem;
-}
-
-.buttons .btn{
-    background-color: rgb(106, 96, 126);
-    color: white;
-    border-radius: 15px;
-    padding: 10px 30px;
-    font-size: 15px;
-}
-
-.purple{
-    color: rgb(226, 165, 235)
-}
-
-#element{
-    color: rgb(226, 165, 235);
+    margin: auto;
+    padding: 0 100px;
 }
 
 .rightSec img{
     margin:0px 0;
-}
-
-hr{
-    border: none;
-    height: 2px;
-    background-color: rgb(129, 120, 138);
-    margin: auto;
-    width: 80vw;
-    padding: 2px 0;
+    padding-right: 88px;
 }
 
 .second{
     max-width: 80vw;
     margin:auto;
     padding: 20px 0;
+    height: 30vw;
+}
+
+.third{
+    max-width: 80vw;
+    margin:auto;
+    padding: 20px 0;
+    height: 30vw;
+}
+
+#horizontalSec{
+    width: 80vw;
+    height: 3px;
+    background-color: white;
+    margin: 55px 0;
+    display: flex;
+}
+
+.vertical{
+    height: 90px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.vertical .title{
+    position: relative;
+    width: 150px;
+    top: 60px;
+    left: 7px;
+}
+
+.vertical .desc{
+    position: relative;
+    width: 150px;
+    top: 80px;
+    left: 7px;
+    font-size: 14px;
+    color: gray;
+
+}
+
+footer{
+    display: flex;
+    height: 50px;
+    background-color: rgb(3, 3, 85);
+    align-items: center;
+    justify-content: center;
 }

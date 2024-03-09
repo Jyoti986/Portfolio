@@ -1,0 +1,57 @@
+.purple{
+    color: rgb(226, 165, 235)
+}
+
+#element{
+    color: rgb(226, 165, 235);
+}
+
+.leftSec p{
+    font-size: 16px;
+    max-width: 50%;
+    color: gray;
+}
+
+.buttons .btn{
+    background-color: rgb(106, 96, 126);
+    color: white;
+    border-radius: 15px;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: rgb(129, 120, 138);
+    padding: 2px 0;
+}
+
+.second h1{
+    color: rgba(172, 83, 199, 0.671);
+    font-size: 2rem;
+}
+
+.second .box{
+    height: 40px;
+    width: 70vw;
+    background-color: gray;
+    margin: 23px 0;
+}
+
+.third h1{
+    color: rgba(172, 83, 199, 0.671);
+    font-size: 2rem;
+}
+
+.third span{
+    color: gray;
+}
+
+
+.img-top{
+    height: 23px;
+    position: relative;
+    top: -37px;
+    left: -14px;
+}
