@@ -33,10 +33,6 @@ li a {
     color: white;
 }
 
-li a:hover {
-    color: rgb(203, 203, 243);
-    font-size: 1.02rem;
-}
 
 .first {
     display: flex;
@@ -82,12 +78,12 @@ li a:hover {
     height: 90px;
     width: 1px;
     background-color: white;
-    margin: 0 100px;
+    margin: 0 200px;
 }
 
 .vertical .title{
     position: relative;
-    width: 150px;
+    width: 250px;
     top: 60px;
     left: 7px;
 }

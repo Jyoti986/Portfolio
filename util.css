@@ -1,3 +1,9 @@
+li a:hover {
+    color: rgb(203, 203, 243);
+    font-size: 1.02rem;
+}
+
+
 .purple{
     color: rgb(226, 165, 235)
 }
@@ -36,7 +42,12 @@ hr{
     height: 40px;
     width: 70vw;
     background-color: gray;
-    margin: 23px 0;
+    margin: 35px 0;
+}
+
+.second .box:hover{
+    background-color: white;
+    color: gray;
 }
 
 .third h1{
@@ -54,4 +65,8 @@ hr{
     position: relative;
     top: -37px;
     left: -14px;
+}
+
+.flex{
+    color: gray;
 }
