@@ -18,12 +18,23 @@ li a:hover {
     color: gray;
 }
 
+@media screen and (max-width:720px) {
+    .leftSec p{
+        max-width: auto;
+    }
+}
+
+.buttons .btn:hover{
+    color: gray;
+    background-color: white;
+}
+
 .buttons .btn{
     background-color: rgb(106, 96, 126);
     color: white;
     border-radius: 15px;
     padding: 10px 30px;
-    font-size: 15px;
+    font-size: 15px; 
 }
 
 hr{
@@ -34,11 +45,15 @@ hr{
 }
 
 .second h1{
-    color: rgba(172, 83, 199, 0.671);
+    color: rgba(213, 154, 231, 0.911);
     font-size: 2rem;
 }
 
 .second .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 40px;
     width: 70vw;
     background-color: gray;
